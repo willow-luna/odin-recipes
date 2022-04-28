@@ -1,0 +1,16 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(100, 100, 130);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items: center;
+}
+
+img{
+    width: 20rem;
+    height: auto;
+}
